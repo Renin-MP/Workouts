@@ -1,0 +1,69 @@
+
+body{
+    background-color: red;
+     color: white;
+     display: flex;
+     flex-wrap: wrap;
+}
+#heading{
+     margin-left:460px;
+     margin-top: 140px;
+    
+}
+.hede{
+    margin-left: 20px;
+}
+#sub{
+    margin-left: 40px;
+    font-size: 21px;
+}
+#searchBox{
+    border: 1px solid white;
+    margin-left: 420px;
+    width: 430px;
+     height: 30px;
+     border-radius:5px;
+     font-size: small;
+     padding-left: 10px;
+}
+#search-btn{
+    /* margin-left: -65px; */
+    background-color: white;
+    border: 1px solid black;
+    margin-top: px;
+    border-radius:5px;
+    font-size: small;
+    padding-bottom:2px;
+    width: 50px;
+    height: 29px;
+}
+#movie-container{
+
+width: 1200px;
+margin-left: 80px;
+height: 30px;
+}
+#microMic{
+    
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    background-color:white;
+    
+}
+#microMic{
+     border: 1px solid white;
+     border-radius: 2px;
+     width: 15px;
+     height: 28px;
+     padding-right: 15px;
+     
+     
+}
+
+
+
+
+
+
+

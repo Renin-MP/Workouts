@@ -1,0 +1,126 @@
+/* body{
+    display: flex;
+    flex-wrap: wrap;
+}
+#ham{
+    margin-top: 200px;
+    margin-left: 350px;
+}
+.hed{
+    color: white;
+    font-size: 50px;
+    font-style: normal;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+.hede{
+    color: white;
+    font-size: 50px;
+    padding-left: 60px;
+    margin-top: -15px;
+    font-style: normal;
+}
+#sub{
+    color: white;
+    font-size: 35px;
+    font-style: normal;
+    margin-left: 60PX;
+    font-style: normal;
+    margin-top: 30px;
+}
+#box{
+    width: 600px;
+    height: 40px;
+    border: 1px solid white;
+    padding-left: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 300px;
+}
+#mic{
+    height: 30px;
+    padding-left: -20px;   
+}
+.cards{
+     height: 50px;
+    width: 180px;   
+}
+.card{
+    width: 300px;
+     margin-left: -290px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    padding-right: 10px   
+}
+.bot{
+    width:280px;
+    height: 300px;
+}
+.card-title{
+    font-size: medium;
+    padding-top: -2px;
+
+}
+#one{
+    font-size: medium;
+    padding-left: 30px;
+    font-weight: bolder;
+}
+.two{
+    padding-left: 70px;
+    font-size: medium;
+    font-weight: bolder;
+}
+.tree{
+    padding-left: 90px;
+    padding-top: 20px;
+    font-size: medium;
+    
+}
+.tre{
+    padding-left: 70px;
+    padding-top: 20px;
+    font-size: medium;
+    font-weight: 500;
+}
+.card-footer{
+    padding-left: 70px;
+    font-size: medium;
+    background-color: cadetblue;
+}
+.card-group{
+    margin-bottom: 300px;
+}
+
+.text-body-secondary{
+    font-size: medium;
+    color: white;   
+} */ 
+
+
+body{
+     
+     background-color: black;
+
+
+}
+
+#head{
+    margin-left: 300px;
+    margin-top: 100px;
+    color: white;
+}
+#second{
+    font-size: 25px;
+    margin-left: 160px;
+}
+#search{
+    width: 400px;
+    border: 1px solid rgb(73, 67, 67);
+    margin-left: 420px;
+    height: 30px;
+    border-radius: 9px;
+    padding-left: 10px;
+}

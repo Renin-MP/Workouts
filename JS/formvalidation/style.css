@@ -1,0 +1,5 @@
+#emptyEmail,#invalidEmail,#emptyPassword,#invalidPassword{
+    color: red;
+    font-size: smaller;
+    display: none;
+}

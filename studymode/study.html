@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // var a = 10
+    // var data  ="10"
+    // console.log(" a",a);
+    // console.log(" data",data);
+
+    // if(a === data){
+    //     console.log("equals");
+
+    // } else{
+    //     console.log("not equals");
+
+    // }
+
+    // var age= 20
+
+    // console.log(typeof age != "number" || age > 100 || age <1 ? "invalid age"
+    //     :age >=18? "eligible to vote"
+    //     :"not eligible vote"
+    // );
+
+    //   console.log("HELLO JS WORLD");
+
+    //   variable
+    // var a= 10
+
+    // console.log("  value of a",a);
+
+    // primitive data type
+
+    // 1. string
+    // 2. Number
+    // 3. Boolean
+    // 4. null
+    // 5. undifined
+
+    // var name ="Akli muhammed "
+    // var age = 23
+    // var ismarried = true
+    // var love = null
+    // var acting
+
+    // console.log("name",name);
+    // console.log("age",age);
+    // console.log("ismarried",ismarried);
+    // console.log("love",love);
+    // console.log("acting ",acting );
+
+    // non primitive
+
+    // 1. array
+    // 2. object
+    // 3. function
+
+    //  array
+
+    //   var myArr = ["Renin", 24, false, null, , , ,];
+    //   console.log("myArr", myArr);
+    //   // to check array or not
+    //   console.log("myArray", Array.isArray(myArr));
+
+    //   // object
+
+    //   var iphone = {
+    //     Model: 13,
+    //     color: "red",
+    //     brand: "ios",
+    //     price: null,
+    //     use: "calling",
+    //   };
+    //   console.log("iphone", iphone);
+
+    //   var fruits = ["mango", "orange", "apple", "kiwi"];
+    //   console.log("fruits", fruits);
+
+    //   // function
+
+    //   var person = {
+    //     fName: "Muhammed",
+    //     lName: "MP",
+    //     age: 32,
+    //     eyecolor: "red",
+    //     fullName: function () {
+    //       return this.fName + "  " + this.lName;
+    //     },
+    //   };
+    //   console.log(" person", person);
+
+    //   console.log(" fName ", person.fName);
+    //   console.log("lName", person.lName);
+    //   console.log("age", person.age);
+    //   console.log(" eyecolor", person.eyecolor);
+    //   console.log("fullName", person.fullName());
+
+    //   // for of
+
+    //   var bikes = ["R15", "Rx100", "Ninja", "Rx135"];
+
+    //   // for of
+    //   // only  using array
+    //   // returns the  complete array
+    //   // for of arrayil kodutha ndhano ath eg name aangil ath eduth kanikum
+
+    //   for (var bike of bikes) {
+    //     console.log("bike", bike);
+    //   }
+
+    //   // for in
+    //   //  using array and object
+    //   // return the index number
+
+    // var mobiles = ["vivo", "oppo", "iphone", "samung"];
+
+    // for (var index in mobiles) {
+    //   console.log(`index of ${index} is ${mobiles[index]}`);
+    // console.log('index of ' + index + 'is ' + mobiles[index]  );
+
+    // }
+
+    //   var Names = ["Renin", "Rami", "Jesin", "Sana"];
+    //   for (var index in Names) {
+    // //     console.log(`index of ${index} is ${Names[index]}`);
+    // //   }
+
+    // // object
+    // // var phone={
+    // //     Name:"iphone",
+    // //     price:123333,
+    // //     ram:"8GB",
+    // //     memory:"512Gb",
+    // // }
+
+    // // for (var key in phone){
+    // //     console.log(`key is ${key}: value is ${phone[key]}`);
+
+    // // }
+
+
+    // // var employees = [
+    // //   {
+    // //     id: 1,
+    // //     empname: "ajay",
+    // //     salary: 12000,
+    // //   },
+    // //   {
+    // //     id: 2,
+    // //     empname: "jay",
+    // //     salary: 23000,
+    // //   },
+    // //   {
+    // //     id: 3,
+    // //     empname: "ammu",
+    // //     salary: 18000,
+    // //   },
+    // //   {
+    // //     id: 4,
+    // //     empname: "madu",
+    // //     salary: 45000,
+    // //   },
+    // // ];
+
+    // //  wap employees >20000 salary
+
+
+    // // for (var employee of employees) {
+    // //   if (employee.salary > 20000) {
+    // //     console.log("employee: salary>20000 is", employee.empname);
+    // //   }
+    // // }
+
+
+    // // for(var index in employees){
+    // //   // console.log("index",index);
+
+    // //   if(employees[index].salary > 20000) {
+    // //     console.log(` index is ${index } where salary > 20000 : value is ${employees[index].empname}`);
+    // //   }
+    // // }
+
+    // //WAP to print empName where name > 3 characters
+
+    // // for(var employee of employees){
+    // //   if(employee.empname.length > 3){
+    // //     console.log("employee: name > 3 characters is", employee.empname);
+    // //   }
+    // // }
+
+    // // for(var index in employees){
+    // //   if(employees[index].empname.length > 3){
+    // //     console.log(`index is ${index} where : name > 3 : the value is ${employees[index].empname}`);
+
+    // //   }
+    // // }
+
+
+    // //  functions
+
+
+    // //   // named function
+    // //   function renin(a, b) {
+    // //     console.log(a + b);
+    // //   }
+    // //   renin(5, 6);
+
+    // //   // anonymous function
+    // //   let func = function (c, d) {
+    // //     console.log(c * d);
+    // //   };
+    // //     func(2,7)
+
+    // //   // self invoked function
+    // //   (function (x1, y1) {
+    // //     console.log(x1 / y1);
+    // //   })(8, 2);
+
+    // //   let problem = (n1, n2) => {
+    // //     console.log(n1-n2);
+    // //   };
+    // //   problem(8, 10);
+
+
+
+
+    // //  array methord
+
+    // let abc = [1, 2, 3, 4, 5, 6, 7,]
+
+    // // unshift
+    // // return new length of array 
+
+    // let addElemntstart = abc.unshift(9, 8,);
+    // console.log("addElemntstart", addElemntstart);
+    // console.log("abc after unshift", abc);
+    // console.log("=============");
+
+    // // push
+    // // return new length of array 
+
+    // let addElementsend = abc.push(12, 13, 14);
+    // console.log("addElementsend", addElementsend);
+    // console.log("abc after push", abc);
+    // console.log("=============");
+    // // shift
+    // let removeElemntstart = abc.shift();
+    // console.log("removeElemntstart", removeElemntstart);
+    // console.log("abc after shift", abc);
+    // console.log("=============");
+    // // pop
+    // let removeElemntend = abc.pop();
+    // console.log("removeElemntend", removeElemntend);
+    // console.log("abc after pop", abc);
+    // console.log("=============");
+    // // slice 
+    // let arr1 = [30, 40, 50, 60, 32, 54];
+    // let slicedArr1 = arr1.slice(1, 2);
+    // console.log("slicedArr1", slicedArr1);
+    // console.log("arr1 after slice", arr1);
+    // console.log("=============");
+    // //   splice 
+    // retun removed elemnts 
+    //  it modify the array
+
+    // let nums =[22,33,44,55,66,77,]
+    // let removedElemntsplice = nums. splice (1,2,3) 
+    //     console.log("removedElemntsplice",removedElemntsplice);
+    //     console.log("nums  after splice",nums);
+    //     console.log("=============");
+    //     // length
+    // let numslength  = nums.length;
+    // console.log("numslength",numslength);
+    // console.log("=============");
+    // // concat
+    // let concatnums = nums.concat (3);
+    // console.log("concatnums",concatnums);
+    // console.log("=============");
+    // // flat 
+    // let multidiarr =[10,20,[20,40],50,[[[60,70]]]];
+    // let flatarr = multidiarr.flat (1);
+    // console.log("flatarr ", flatarr );
+    // console.log("=============");
+    // // join=> covert to array to string , can accept seprator
+
+    // let arr2 = [12, 23, "raju", "ajay"];
+    // let joinarr2 = arr2.join(" ");
+    // console.log("joinarr2", joinarr2);
+    // console.log("===============");
+
+    //  // to string=>covert array to string
+    // let arr2Tostring = arr2.toString();
+    // console.log("arr2Tostring", arr2Tostring);
+    // console.log("===============");  
+
+
+    // // reduce
+    // let nums2 = [2, 3, 4, 6];
+    // let reduceNums2 = nums2.reduce((accVal, curVal) => accVal - curVal);
+    // console.log("reduceNums2", reduceNums2);
+
+
+    localStorage.setItem("uName", "Reninmp")
+    localStorage.setItem("age","35")
+    
+
+    let uNameFromLS = localStorage.getItem("uName")
+    console.log("uNameFromLS", uNameFromLS);
+
+  let ageformLS=localStorage.getItem("age")
+  console.log("ageformLS",ageformLS);
+
+
+
+  
+  
+  </script>
+</body>
+
+</html>
